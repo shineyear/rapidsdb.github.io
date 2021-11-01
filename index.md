@@ -59,7 +59,7 @@ Please call/email one of our rapids db consultant.
 
 [ALL IN ONE buildup](./geo_sql.html).
 
-[Python Code Example](./geo_sql.html).
+[Python Code Example](./python_example.html).
 
 # Documents Download
 
