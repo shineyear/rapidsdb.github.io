@@ -44,6 +44,10 @@ Please call/email one of our rapids db consultant.
 
 [GEO Polygon SQL](./geo_sql.html).
 
+[AWS S3 connector](./geo_sql.html).
+
+[Hadoop HDFS connector](./geo_sql.html).
+
 [Google Bigquery import/export](./geo_sql.html).
 
 [Elasticsearch import/export](./geo_sql.html).
