@@ -22,7 +22,7 @@ For the UI tool we suggest [DBeaver](https://dbeaver.io) (need to use our custom
 
 RPDSQL is the storage engine for rapids db, fully support ANSI SQL standard 
 
-# Which data source can support?
+# Data source support?
 
 > Any JDBC database
 
