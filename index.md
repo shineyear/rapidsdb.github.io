@@ -63,9 +63,9 @@ Please call/email one of our rapids db consultant.
 
 # Documents Download
 
-*   Install guide (pdf)
-*   JDBC driver (zip)
-*   Python lib (zip)
+*   [Install guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2%20(1).pdf)
+*   [JDBC driver (zip)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/rapids-jdbc-4.0.6.jar.zip)
+*   [Python lib (whl)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/pyRDP-4.0.0-py3-none-any.whl)
 *   Rapids Shell (zip)
 *   Optimization guide (pdf)
 *   Benchmark compare (xslt)
