@@ -2,8 +2,9 @@
 layout: default
 ---
 
-## [back](./)
-## Python example page
+[back](./)
+
+## Python example code
 
 Make sure you have installed the rapids db python lib before run this
 
