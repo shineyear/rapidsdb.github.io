@@ -25,10 +25,15 @@ RPDSQL is the storage engine for rapids db, fully support ANSI SQL standard
 # Which data source can support?
 
 > Any JDBC database
+
 > Hadoop HDFS
+
 > Hive
+
 > S3
+
 > Rabbit mq
+
 > Json or csv file from Elasticsearch, Redis, Google Bigquery
 
 # How to get a license?
