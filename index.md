@@ -4,11 +4,14 @@ layout: default
 
 # What is RapidsDB?
 
+RapidsDB is a fully parallel, distributed, in-memory federated query system that is designed to support
+complex analytical SQL queries running against a set of different data stores.
+
+RapidsDB provides unified SQL access to a wide variety of data sources, which can include relational and
+non-relational data sources. Data can be joined across all of the data sources. 
+
 ![Branching](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/images/architecture.jpg)
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # What is Rapids Shell?
 
@@ -34,11 +37,14 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 [ALL IN ONE buildup](./geo_sql.html).
 
+[Python Code Example](./geo_sql.html).
+
 # Documents Download
 
 *   Install guide pdf
 *   JDBC driver
 *   Optimization pdf
+*   Benchmark compare
 
 ### Small image
 
