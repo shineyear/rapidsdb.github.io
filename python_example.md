@@ -25,7 +25,7 @@ conn = pyRDP.connect(host = "domain name or ip address",
 # 使用 cursor()方法获取操作游标
 cursor = conn.cursor()
 # 使用 execute 方法执行 SQL 语句
-sql = "select * from function_input_type_limitations;" 
+sql = "select * from table name;" 
 
 
 # 使用 fetchone() 方法获取一条查询结果数据 data = cursor.fetchone()
