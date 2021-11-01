@@ -20,7 +20,8 @@ For the UI tool we suggest [DBeaver](https://dbeaver.io) (need to use our custom
 
 # What is RPDSQL?
 
-RPDSQL is the storage engine for rapids db, fully support ANSI SQL standard 
+RPDSQL is the storage engine for rapids db, fully support ANSI SQL standard, High avaliability
+and parallol compute 
 
 # Data source support?
 
@@ -64,6 +65,7 @@ Please call/email one of our rapids db consultant.
 
 *   Install guide (pdf)
 *   JDBC driver (zip)
+*   Python lib (zip)
 *   Rapids Shell (zip)
 *   Optimization guide (pdf)
 *   Benchmark compare (xslt)
