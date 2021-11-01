@@ -15,13 +15,25 @@ non-relational data sources. Data can be joined across all of the data sources.
 
 # What is Rapids Shell?
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+The command line toolkit for remote access rapids db, full support for windows/linux/mac. 
+For the UI tool we suggest [DBeaver](https://dbeaver.io) (need to use our customized JDBC driver)
 
 # What is RPDSQL?
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+RPDSQL is the storage engine for rapids db, fully support ANSI SQL standard 
+
+# Which data source can support?
+
+> Any JDBC database
+> Hadoop HDFS
+> Hive
+> S3
+> Rabbit mq
+> Json or csv file from Elasticsearch, Redis, Google Bigquery
+
+# How to get a license?
+
+Please call/email one of our rapids db consultant.
 
 # API and Example Code
 
@@ -41,14 +53,16 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 # Documents Download
 
-*   Install guide pdf
-*   JDBC driver
-*   Optimization pdf
-*   Benchmark compare
+*   Install guide (pdf)
+*   JDBC driver (zip)
+*   Rapids Shell (zip)
+*   Optimization guide (pdf)
+*   Benchmark compare (xslt)
+*   Testing guide (pdf)
 
-### Small image
+### RoadMap
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+BUTP
 
 
 
