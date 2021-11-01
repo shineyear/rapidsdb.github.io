@@ -4,7 +4,7 @@ layout: default
 
 # What is RapidsDB?
 
-[Architecture design](./geo_sql.html).
+![Branching](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/images/architecture.jpg)
 
 There should be whitespace between paragraphs.
 
