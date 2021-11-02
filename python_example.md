@@ -15,17 +15,17 @@ import pyRDP as pyRDP
 
 
 # 打开数据库连接
-conn = pyRDP.connect(host = "domain name or ip address",
+conn = pyRDP.connect(host = "domain_name or ip_address",
                      port = 4333,
                      user = 'RAPIDS',
                      password = 'rapids',
-                     catalog = 'connector name',
-                     schema = "database name")
+                     catalog = 'connector_name',
+                     schema = "database_name")
 
 # 使用 cursor()方法获取操作游标
 cursor = conn.cursor()
 # 使用 execute 方法执行 SQL 语句
-sql = "select * from table name;" 
+sql = "select * from table_name;" 
 
 
 # 使用 fetchone() 方法获取一条查询结果数据 data = cursor.fetchone()
