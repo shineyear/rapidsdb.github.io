@@ -8,7 +8,7 @@ layout: default
 
 1. Create table
 ```sql
-create table carparkgeo ( 
+create table table name ( 
        agency varchar(10),
        area varchar(20),
        availablelots int,
