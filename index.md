@@ -67,7 +67,7 @@ Please call/email one of our rapids db consultant.
 *   [JDBC driver (zip)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/rapids-jdbc-4.0.6.jar.zip)
 *   [Python lib (whl)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/pyRDP-4.0.0-py3-none-any.whl)
 *   Rapids Shell (zip)
-*   Optimization guide (pdf)
+*   [Optimization guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/数据库性能优化手册.pdf)
 *   [Benchmark compare (xslt)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/TPCH结果对比%20(1).xlsx)
 *   Testing guide (pdf)
 
