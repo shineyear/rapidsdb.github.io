@@ -6,10 +6,10 @@ layout: default
 
 ## GEO Polygon SQL
 
-1. Create table
+1.Create table
 
 ```sql
-create table table name ( 
+create table table_name ( 
        agency varchar(10),
        area varchar(20),
        availablelots int,
@@ -24,7 +24,7 @@ create table table name (
    );
 ```
 
-2. Use python insert json data
+2.Use python insert json data
 
 ```python
 # 载入 pyRDP
@@ -37,12 +37,12 @@ with open('lta_carpark.json') as f:
 
 
 # 打开数据库连接
-conn = pyRDP.connect(host = "domain name or ip address",
+conn = pyRDP.connect(host = "domain_name or ip_address",
                      port = 4333,
                      user = 'RAPIDS',
                      password = 'rapids',
-                     catalog = 'connector name',
-                     schema = "database name")
+                     catalog = 'connector_name',
+                     schema = "database_name")
 
 # 使用 cursor()方法获取操作游标
 cursor = conn.cursor()
@@ -61,7 +61,7 @@ for i in data:
     source = i["source"]
 
     # 使用 execute 方法执行 SQL 语句 插入 json 数据
-    sql = "INSERT INTO table name (agency, area, availablelots, carparkid, development, location, lat, lon, lottype, source) VALUES ('"+agency+"', '"+area+"', "+str(availablelots)+", '"+carparkid+"', '"+development+"', 'POINT("+lon+" "+lat+")', "+lat+", "+lon+", '"+lottype+"', '"+source+"')"
+    sql = "INSERT INTO table_name (agency, area, availablelots, carparkid, development, location, lat, lon, lottype, source) VALUES ('"+agency+"', '"+area+"', "+str(availablelots)+", '"+carparkid+"', '"+development+"', 'POINT("+lon+" "+lat+")', "+lat+", "+lon+", '"+lottype+"', '"+source+"')"
     cursor.execute(sql)
     
 
@@ -71,10 +71,10 @@ conn.close()
 
 ```
 
-3. Search the record
+3.Search the record
 
 ```sql
-SELECT carparkid, location FROM table name WHERE ROUND(GEOGRAPHY_DISTANCE("POINT(1.85718 2.29375)", location), 0) < 5000;
+SELECT carparkid, location FROM table_name WHERE ROUND(GEOGRAPHY_DISTANCE("POINT(1.85718 2.29375)", location), 0) < 5000;
 ```
 
 
