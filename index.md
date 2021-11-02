@@ -70,6 +70,7 @@ Please call/email one of our rapids db consultant.
 *   [Optimization guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/数据库性能优化手册.pdf)
 *   [Benchmark compare (xslt)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/TPCH结果对比%20(1).xlsx)
 *   Testing guide (pdf)
+*   Rapids DB SQL (pdf)
 
 ### RoadMap
 
