@@ -45,7 +45,7 @@ Please call/email one of our rapids db consultant.
 
 [GEO Polygon SQL](./geo_sql.html).
 
-[AWS S3 connector](./geo_sql.html).
+[AWS S3 connector](./s3_connector.html).
 
 [Hadoop HDFS connector](./geo_sql.html).
 
