@@ -68,7 +68,7 @@ Please call/email one of our rapids db consultant.
 *   [Python lib (whl)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/pyRDP-4.0.0-py3-none-any.whl)
 *   Rapids Shell (zip)
 *   Optimization guide (pdf)
-*   Benchmark compare (xslt)
+*   [Benchmark compare (xslt)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/TPCH结果对比%20(1).xlsx)
 *   Testing guide (pdf)
 
 ### RoadMap
