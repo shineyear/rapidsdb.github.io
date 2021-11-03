@@ -43,19 +43,21 @@ Please call/email one of our rapids db consultant.
 
 # API and Example Code
 
-[GEO Polygon SQL](./geo_sql.html).
+[GEO Polygon SQL](./geo_sql.html)
 
-[AWS S3 connector](./s3_connector.html).
+[AWS S3 connector](./s3_connector.html)
 
-[Hadoop HDFS connector](./geo_sql.html).
+[Hadoop HDFS connector](./geo_sql.html)
 
-[Elasticsearch json import/export](./elasticsearch_json.html).
+[Elasticsearch json import/export](./elasticsearch_json.html)
 
-[Redis csv file import](./redis_csv.html).
+[Redis csv file import](./redis_csv.html)
 
-[ALL IN ONE buildup](./all_in_one.html).
+[ALL IN ONE buildup](./all_in_one.html)
 
-[Python Code Example](./python_example.html).
+[Python Code Example](./python_example.html)
+
+[TPCH performance benchmark](./tpch.md)
 
 # Documents Download
 
