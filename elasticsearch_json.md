@@ -8,7 +8,7 @@ layout: default
 
 1.Create index in elasticsearch
 
-```json
+```shell
 index.json 
 
 {
@@ -29,7 +29,7 @@ curl -XPUT http://localhost:9200/my_index -H 'Content-Type: application/json' -d
 
 2.Insert data into elasticsearch
 
-```json
+```shell
 data.json
 
 
@@ -46,7 +46,7 @@ curl -XPOST http://localhost:9200/my_index/_doc/ -H 'Content-Type: application/j
 
 3.Export to as json
 
-```json
+```shell
 curl -X GET 'http://localhost:9200/my_index/_search' | jq -r '.["hits"]["hits"][]' > infile.json
 
 
