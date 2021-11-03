@@ -53,7 +53,7 @@ Please call/email one of our rapids db consultant.
 
 [Elasticsearch json import/export](./elasticsearch_json.html).
 
-[Redis csv file import](./geo_sql.html).
+[Redis csv file import](./redis_csv.html).
 
 [ALL IN ONE buildup](./geo_sql.html).
 
