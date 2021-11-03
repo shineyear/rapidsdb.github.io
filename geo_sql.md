@@ -23,7 +23,7 @@ create table table_name (
        index(location)
 );
    
-create table hdb_geo (
+create table table_name_2 (
 id varchar(100) default null,
 FEATID varchar(100) default null,
 LVL varchar(100) default null,
@@ -85,8 +85,8 @@ conn.close()
 ```
 
 ```sql
-load data local infile "HDBFITNESSSTATIONPLAYGRND2014.csv"
-into table hdb_geo
+load data local infile "infile.csv"
+into table table_name_2
 FIELDS TERMINATED BY '|'
 ENCLOSED BY '"';
 ```
@@ -96,7 +96,7 @@ ENCLOSED BY '"';
 ```sql
 SELECT carparkid, location FROM table_name WHERE ROUND(GEOGRAPHY_DISTANCE("POINT(1.85718 2.29375)", location), 0) < 5000;
 
-select c.carparkid, h.FEATID from carparkgeo c, hdb_geo h where GEOGRAPHY_CONTAINS(h.GEOMETRY, c.location);
+SELECT c.carparkid, h.FEATID FROM table_name c, table_name_2 h WHERE GEOGRAPHY_CONTAINS(h.GEOMETRY, c.location);
 ```
 
 
