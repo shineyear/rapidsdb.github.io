@@ -51,7 +51,7 @@ Please call/email one of our rapids db consultant.
 
 [Google Bigquery import/export](./geo_sql.html).
 
-[Elasticsearch import/export](./elasticsearch_json.html).
+[Elasticsearch json import/export](./elasticsearch_json.html).
 
 [Redis csv file import](./geo_sql.html).
 
