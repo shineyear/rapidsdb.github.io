@@ -57,7 +57,7 @@ Please call/email one of our rapids db consultant.
 
 [Python Code Example](./python_example.html)
 
-[TPCH performance benchmark](./tpch.md)
+[TPCH performance benchmark](./tpch.html)
 
 # Documents Download
 
