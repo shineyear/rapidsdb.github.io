@@ -49,8 +49,6 @@ Please call/email one of our rapids db consultant.
 
 [Hadoop HDFS connector](./geo_sql.html).
 
-[Google Bigquery import/export](./geo_sql.html).
-
 [Elasticsearch json import/export](./elasticsearch_json.html).
 
 [Redis csv file import](./redis_csv.html).
