@@ -21,10 +21,23 @@ create table table_name (
        lat double, 
        lon double, 
        index(location)
-   );
+);
+   
+create table hdb_geo (
+id varchar(100) default null,
+FEATID varchar(100) default null,
+LVL varchar(100) default null,
+QUALITY varchar(100) default null,
+TYPE varchar(100) default null,
+INC_CRC varchar(100) default null,
+FMEL_UPD_D varchar(100) default null,
+GEOMETRY GEOGRAPHY default null,
+index (GEOMETRY) with (resolution = 8),
+index (FEATID)
+);
 ```
 
-2.Use python insert json data
+2.Use python insert json data or load from csv
 
 ```python
 # 载入 pyRDP
@@ -71,10 +84,19 @@ conn.close()
 
 ```
 
+```sql
+load data local infile "HDBFITNESSSTATIONPLAYGRND2014.csv"
+into table hdb_geo
+FIELDS TERMINATED BY '|'
+ENCLOSED BY '"';
+```
+
 3.Search the record
 
 ```sql
 SELECT carparkid, location FROM table_name WHERE ROUND(GEOGRAPHY_DISTANCE("POINT(1.85718 2.29375)", location), 0) < 5000;
+
+select c.carparkid, h.FEATID from carparkgeo c, hdb_geo h where GEOGRAPHY_CONTAINS(h.GEOMETRY, c.location);
 ```
 
 
