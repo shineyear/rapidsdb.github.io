@@ -55,7 +55,7 @@ Please call/email one of our rapids db consultant.
 
 [Redis csv file import](./redis_csv.html).
 
-[ALL IN ONE buildup](./geo_sql.html).
+[ALL IN ONE buildup](./all_in_one.html).
 
 [Python Code Example](./python_example.html).
 
