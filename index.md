@@ -58,7 +58,7 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 [AWS S3 connector](./s3_connector.html)
 
-[Hadoop HDFS connector](./geo_sql.html)
+[Hadoop HDFS connector](./hdfs.html)
 
 [Elasticsearch json import/export](./elasticsearch_json.html)
 
