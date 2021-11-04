@@ -75,7 +75,7 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 *   [Install guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2%20(1).pdf)
 *   [JDBC driver (zip)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/rapids-jdbc-4.0.6.jar.zip)
 *   [Python lib (whl)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/pyRDP-4.0.0-py3-none-any.whl)
-*   Rapids Shell (zip)
+*   [Rapids Shell (zip)](https://drive.google.com/file/d/1HzmZSIP6C3dEW4EiFI1XQY1lwawiEzEM/view?usp=sharing)
 *   [Optimization guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/数据库性能优化手册.pdf)
 *   [Benchmark compare (xslt)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/TPCH结果对比%20(1).xlsx)
 *   [Testing guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/testing-guide-EN.pdf)
