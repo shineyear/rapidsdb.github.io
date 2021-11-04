@@ -8,6 +8,11 @@ layout: default
 
 ![Branching](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/images/all%20in%20one%20demo-2.png)
 
+1.Create Dockerfiledocker-compose.yml
+
+
+
+
 ```shell
 #amazon os
 FROM amazonlinux:latest
@@ -111,3 +116,63 @@ RUN chmod +x /opt/run_script.sh
 #start sshd and zookeeper
 CMD /opt/run_script.sh
 ```
+
+2.Create docker-compose.yml and on
+
+```yml
+version: "2"
+services:
+  dqc:
+    image: rapidsdb:2
+    container_name: dqc
+    build: .
+    networks:
+        rapids_net:
+            ipv4_address: 193.168.1.1
+    ports:
+        - "14333:4333"
+        - "14334:4334"
+        - "11122:22"
+        - "12181:2181"
+        - "19999:9999"
+  dqe1:
+    depends_on:
+      - dqc
+    image: rapidsdb:2
+    container_name: dqe1
+    networks:
+        rapids_net:
+            ipv4_address: 193.168.1.2
+
+  dqe2:
+    depends_on:
+      - dqc
+    image: rapidsdb:2
+    container_name: dqe2
+    networks:
+        rapids_net:
+            ipv4_address: 193.168.1.3
+
+  dqr:
+    depends_on:
+      - dqc
+      - dqe1
+      - dqe2
+    image: rapidsdb:2
+    command: >
+        bash -c "sleep 5 && ssh -i /home/rapids/.ssh/id_rsa -o 'StrictHostKeyChecking no' rapids@193.168.1.1 'cd /opt/rdp/current && ./bootstrapper.sh -a install -i ../rdp-installer.run -l ../rapidsforcloud.lic && ./bootstrapper.sh -a start'"
+    container_name: dqr
+    networks:
+        rapids_net:
+            ipv4_address: 193.168.1.4
+
+networks:
+  rapids_net:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 193.168.1.0/16
+         gateway: 193.168.0.1
+```
+
+
