@@ -64,11 +64,14 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 [Redis csv file import](./redis_csv.html)
 
-[ALL IN ONE buildup](./all_in_one.html)
+[ALL IN ONE RapidsDB buildup](./all_in_one.html)
+
+[How to install RPDSQL](./rpdsql_install.html)
 
 [Python Code Example](./python_example.html)
 
 [TPCH performance benchmark](./tpch.html)
+
 
 # Documents Download
 
