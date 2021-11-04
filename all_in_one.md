@@ -8,7 +8,7 @@ layout: default
 
 ![Branching](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/images/all%20in%20one%20demo-2.png)
 
-1.Create Dockerfiledocker-compose.yml
+1.Create Dockerfile
 
 
 
