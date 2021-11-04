@@ -21,7 +21,7 @@ For the UI tool we suggest [DBeaver](https://dbeaver.io) (need to use our custom
 # What is RPDSQL?
 
 RPDSQL is the storage engine for rapids db, fully support ANSI SQL standard, High avaliability
-and parallol compute 
+and parallel compute 
 
 # Data source support?
 
