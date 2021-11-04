@@ -23,6 +23,17 @@ For the UI tool we suggest [DBeaver](https://dbeaver.io) (need to use our custom
 RPDSQL is the storage engine for rapids db, fully support ANSI SQL standard, High availability
 and parallel compute 
 
+# What is the current release version?
+
+| software      | version    | date      |
+|:--------------|:-----------|:----------|
+| RapidsDB      | 4.2.3.3    | 20211101  |
+| RPDSQL        | 2.0.6.     | 20211101  |
+| Rapids Shell  | 4.0.6      | 20211101  |
+| JDBC          | 4.0.6      | 20211101  |
+| Python Lib    | 4.0.0      | 20211101  |
+
+
 # Data source support?
 
 > Any JDBC database
@@ -39,7 +50,7 @@ and parallel compute
 
 # How to get a license?
 
-Please call/email one of our rapids db consultant.
+Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 # API and Example Code
 
