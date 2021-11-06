@@ -128,6 +128,15 @@ message = json_extract_string(@avar, 'message'),
 timest = to_date(json_extract_string(@avar, '@timestamp'), 'YYY-MM-DDTHH:MM:SS');
 ```
 
+6.Search and Update
+
+```sql
+select json_extract_string(raw, "_id") from test; 
+
+select json_extract_string(raw::_source, "message") from test;
+
+update test set raw = JSON_SET_STRING(raw::_source, "field1", "rice") where _id = '3sMhlXwBOkvgpBzouRFw';
+```
 
 
 
