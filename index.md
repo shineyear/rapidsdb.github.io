@@ -85,9 +85,6 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 *   Rapids DB SQL manuals (pdf)
 *   [RapidsDB Technical White Paper (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB%20Technical%20White%20Paper.pdf)
 
-### RoadMap
-
-BUTP
 
 
 
