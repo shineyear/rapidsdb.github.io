@@ -72,6 +72,8 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 [TPCH performance benchmark](./tpch.html)
 
+[Rapids db container migration](./container_migration.html)
+
 
 # Documents Download
 
