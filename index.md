@@ -74,6 +74,8 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 [Rapids db container migration](./container_migration.html)
 
+[AWS EC2 import qcow2 image as snapshot](./snapshot.html)
+
 
 # Documents Download
 
