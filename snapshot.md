@@ -110,5 +110,5 @@ container.json
 }
 ```
 
-
+* if you are using centos 7 image , please make sure it support the NVMeSSD (must be after centos 7.4), otherwise the AWS EC2 instance type must choose normal SSD support type, like M3 (if not , there will be an init error like can not find volume and some script timeout)
 
