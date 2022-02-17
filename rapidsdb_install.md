@@ -8,14 +8,16 @@ layout: default
 
 Hardware 
 
+|:----------|:------------------------------------|
 | Minimum   | 4 cpu + 32GB memory + 100GB storage |
 | Recommend | 8 cpu + 128GB memory + 1TB storage  |
 
 
 Operating System
 
+|:------------------|
 | Centos 7.7 X86_64 |
-| File system XFS |
+| File system XFS   |
 
 
 Node info
@@ -28,6 +30,7 @@ Node info
 
 Port info
 
+|:-----|
 | 2888 |
 | 3888 |
 | 2181 |
