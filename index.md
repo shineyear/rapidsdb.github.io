@@ -54,7 +54,9 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 # API and Example Code
 
-[GEO Polygon SQL](./geo_sql.html)
+[How to install Rapidsdb](./rapidsdb_install.html)
+
+[How to install RPDSQL](./rpdsql_install.html)
 
 [AWS S3 connector](./s3_connector.html)
 
@@ -64,13 +66,13 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 [Redis csv file import](./redis_csv.html)
 
-[ALL IN ONE RapidsDB buildup](./all_in_one.html)
-
-[How to install RPDSQL](./rpdsql_install.html)
+[GEO Polygon SQL](./geo_sql.html)
 
 [Python Code Example](./python_example.html)
 
 [TPCH performance benchmark](./tpch.html)
+
+[ALL IN ONE RapidsDB buildup](./all_in_one.html)
 
 [Rapids db container migration](./container_migration.html)
 
