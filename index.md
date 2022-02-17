@@ -88,7 +88,7 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 *   [Optimization guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/数据库性能优化手册.pdf)
 *   [Benchmark compare (xslt)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/TPCH结果对比%20(1).xlsx)
 *   [Testing guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/testing-guide-EN.pdf)
-*   Rapids DB SQL manuals (pdf)
+*   [Rapids DB SQL manuals (doc)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB%20SQL%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97v2.0.doc)
 *   [RapidsDB Technical White Paper (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB%20Technical%20White%20Paper.pdf)
 
 
