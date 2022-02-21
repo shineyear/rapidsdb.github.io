@@ -78,6 +78,8 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 [AWS EC2 import qcow2 image as snapshot](./snapshot.html)
 
+[High Availability design](./ha.html)
+
 
 # Documents Download
 
