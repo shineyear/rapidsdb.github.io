@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 # How to install Rapidsdb as a cluster?
 
 Hardware 

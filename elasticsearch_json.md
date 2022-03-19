@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 ## Elasticsearch json export and import to Rapids DB
 
 1.Create index in elasticsearch

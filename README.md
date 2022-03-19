@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # What is RapidsDB?
 
 RapidsDB is a fully parallel, distributed, in-memory federated query system that is designed to support

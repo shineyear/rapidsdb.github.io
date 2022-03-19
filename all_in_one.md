@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 ## Rapids DB ALL-IN-ONE buildup
 
 ![Branching](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/images/all%20in%20one%20demo-2.png)

@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 # How to install RPDSQL on a single node?
 
 ```shell

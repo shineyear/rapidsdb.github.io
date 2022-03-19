@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 # Hadoop HDFS connector
 
 1.Create dir in hdfs

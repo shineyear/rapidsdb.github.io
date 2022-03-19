@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 ## rapids db docker container migration from test env to production
 
 ```shell

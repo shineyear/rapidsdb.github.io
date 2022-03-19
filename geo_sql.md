@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 ## GEO Polygon SQL
 
 1.Create table

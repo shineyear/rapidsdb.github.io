@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 ## Redis export and import to Rapids DB
 
 1.Build up redis data

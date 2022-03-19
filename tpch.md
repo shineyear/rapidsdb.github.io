@@ -1,9 +1,3 @@
----
-layout: default
----
-
-[back](./)
-
 ## TPCH preformance testing
 
 ```shell
