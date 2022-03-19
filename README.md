@@ -6,7 +6,7 @@ complex analytical SQL queries running against a set of different data stores.
 RapidsDB provides unified SQL access to a wide variety of data sources, which can include relational and
 non-relational data sources. Data can be joined across all of the data sources. 
 
-![Branching](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/images/architecture.jpg)
+![Branching](/images/architecture.jpg)
 
 
 # What is Rapids Shell?
@@ -79,16 +79,16 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 # Documents Download
 
-*   [Install guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2%20(1).pdf)
-*   [JDBC driver (zip)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/rapids-jdbc-4.0.6.jar.zip)
-*   [Python lib (whl)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/pyRDP-4.0.0-py3-none-any.whl)
+*   [Install guide (pdf)](/download/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2%20(1).pdf)
+*   [JDBC driver (zip)](/download/rapids-jdbc-4.0.6.jar.zip)
+*   [Python lib (whl)](/download/pyRDP-4.0.0-py3-none-any.whl)
 *   [Rapids Shell (zip)](https://drive.google.com/file/d/1HzmZSIP6C3dEW4EiFI1XQY1lwawiEzEM/view?usp=sharing)
-*   [Optimization guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/数据库性能优化手册.pdf)
-*   [Benchmark compare (xslt)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/TPCH结果对比%20(1).xlsx)
-*   [Testing guide (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/testing-guide-EN.pdf)
-*   [Rapids DB SQL manuals (doc)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB%20SQL%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97v2.0.doc)
-*   [RapidsDB Technical White Paper (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB%20Technical%20White%20Paper.pdf)
-*   [RapidsDB DEMO (pdf)](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/download/RapidsDB%20DEMO%20V1.2.pdf)
+*   [Optimization guide (pdf)](/download/数据库性能优化手册.pdf)
+*   [Benchmark compare (xslt)](/download/TPCH结果对比%20(1).xlsx)
+*   [Testing guide (pdf)](/download/testing-guide-EN.pdf)
+*   [Rapids DB SQL manuals (doc)](/download/RapidsDB%20SQL%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97v2.0.doc)
+*   [RapidsDB Technical White Paper (pdf)](/download/RapidsDB%20Technical%20White%20Paper.pdf)
+*   [RapidsDB DEMO (pdf)](/download/RapidsDB%20DEMO%20V1.2.pdf)
 
 
 

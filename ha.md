@@ -1,1 +1,1 @@
-![Branching](https://github.com/shineyear/rapidsdb.github.io/raw/gh-pages/images/rapidsdbHA.png)
+![Branching](/images/rapidsdbHA.png)
