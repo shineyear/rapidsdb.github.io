@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## rapids db docker container migration from test env to production
 
 ```shell

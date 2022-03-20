@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## AWS S3 rpdsql pipeline
 
 1.Architecture

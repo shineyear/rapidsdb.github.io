@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## AWS EC2 import qcow2 image as snapshot
 
 ```shell

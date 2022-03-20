@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## Elasticsearch json export and import to Rapids DB
 
 1.Create index in elasticsearch

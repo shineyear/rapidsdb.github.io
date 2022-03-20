@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## How to install RPDSQL on a single node?
 
 ```shell

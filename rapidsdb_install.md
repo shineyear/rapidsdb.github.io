@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## How to install Rapidsdb as a cluster?
 
 Hardware

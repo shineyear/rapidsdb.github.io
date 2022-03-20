@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## GEO Polygon SQL
 
 1.Create table

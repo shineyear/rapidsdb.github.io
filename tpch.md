@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## TPCH preformance testing
 
 ```shell

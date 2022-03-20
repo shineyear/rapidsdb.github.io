@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## Redis export and import to Rapids DB
 
 1.Build up redis data

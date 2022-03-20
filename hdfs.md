@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## Hadoop HDFS connector
 
 1.Create dir in hdfs
