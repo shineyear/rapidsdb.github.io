@@ -2,10 +2,9 @@
 layout: default
 title: Introduction
 nav_order: 1
-permalink: /
 ---
 
-## Company Overview
+# Company Overview
 
 Weixun BorayData Technology (Beijing) Co., Ltd. (BorayData) was founded in 2014. It is a world-leading real-time big data analytics provider of distributed in-memory database technology, international standard-based database products with intellectual property rights, and industrial database solutions. The company is committed to the research and development of distributed in-memory OLAP databases, providing real-time big data analytics products and services to support the digital transformation of various industries and government sectors.
 
