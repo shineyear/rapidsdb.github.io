@@ -1,4 +1,4 @@
-# How to install RPDSQL on a single node?
+## How to install RPDSQL on a single node?
 
 ```shell
 cd /opt/rdp

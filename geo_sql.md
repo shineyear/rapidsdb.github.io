@@ -92,5 +92,3 @@ SELECT carparkid, location FROM table_name WHERE ROUND(GEOGRAPHY_DISTANCE("POINT
 
 SELECT c.carparkid, h.FEATID FROM table_name c, table_name_2 h WHERE GEOGRAPHY_CONTAINS(h.GEOMETRY, c.location);
 ```
-
-

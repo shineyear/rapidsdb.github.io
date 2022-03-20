@@ -1,4 +1,4 @@
-# Rapids DB ALL-IN-ONE buildup
+## Rapids DB ALL-IN-ONE buildup
 
 ![Branching](/images/all%20in%20one%20demo-2.png)
 

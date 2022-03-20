@@ -1,18 +1,16 @@
-# How to install Rapidsdb as a cluster?
+## How to install Rapidsdb as a cluster?
 
-Hardware 
+Hardware
 
 |:----------|:------------------------------------|
 | Minimum   | 4 cpu + 32GB memory + 100GB storage |
 | Recommend | 8 cpu + 128GB memory + 1TB storage  |
-
 
 Operating System
 
 |:------------------|
 | Centos 7.7 X86_64 |
 | File system XFS   |
-
 
 Node info
 
@@ -116,7 +114,6 @@ sudo chmod +x /etc/rc.d/rc.local
 sudo reboot
 ```
 
-
 Setup NTP
 
 ```shell
@@ -142,7 +139,6 @@ scp -i ~/.ssh/rapidsdb_ssh.pem rdp-installer-R4.2.3.3-ge674a16.run centos@node_i
 
 scp -i ~/.ssh/rapidsdb_ssh.pem rapids.lic centos@node_ip:/home/centos
 ```
-
 
 Install JDK (repeat on each node)
 
@@ -236,7 +232,6 @@ WantedBy=multi-user.target
 sudo systemctl enable zookeeper.service
 ```
 
-
 Install rapidsdb cluster (repeat on each node)
 
 ```shell
@@ -306,6 +301,3 @@ cd /opt/rdp/current
 
 ./bootstrapper.sh -a start
 ```
-
-
-
