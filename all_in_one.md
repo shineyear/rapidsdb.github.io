@@ -1,11 +1,8 @@
-## Rapids DB ALL-IN-ONE buildup
+# Rapids DB ALL-IN-ONE buildup
 
 ![Branching](/images/all%20in%20one%20demo-2.png)
 
 1.Create Dockerfile
-
-
-
 
 ```shell
 #amazon os
@@ -168,5 +165,3 @@ networks:
        - subnet: 193.168.1.0/16
          gateway: 193.168.0.1
 ```
-
-
