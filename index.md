@@ -5,87 +5,22 @@ nav_order: 1
 permalink: /
 ---
 
+## Company Overview
 
-## What is RapidsDB?
+Weixun BorayData Technology (Beijing) Co., Ltd. (BorayData) was founded in 2014. It is a world-leading real-time big data analytics provider of distributed in-memory database technology, international standard-based database products with intellectual property rights, and industrial database solutions. The company is committed to the research and development of distributed in-memory OLAP databases, providing real-time big data analytics products and services to support the digital transformation of various industries and government sectors.
 
-RapidsDB is a fully parallel, distributed, in-memory federated query system that is designed to support
-complex analytical SQL queries running against a set of different data stores.
+The advanced database technology establishes the core competitiveness of BorayData. The company is headquartered in Beijing and has global R&D centers in Silicon Valley of USA, Sidney of Australia, Shanghai, Guangzhou, Wuhan and many cities in China. The R&D team is led by Liu Ruiming, founder and chief architect of the company, and some best international database experts. Among them, three core technical engineers with more than twenty years of database research and development experience are students of Jim Gray, a Turing Award winner and a database technology pioneer.
 
-RapidsDB provides unified SQL access to a wide variety of data sources, which can include relational and
-non-relational data sources. Data can be joined across all of the data sources.
+BorayData has made breakthroughs in database core technology innovation, product research and development, international database standard establishment and industrial application integration since the company was established five years go. Beginning writing the first line of codes, BoreyData has independently developed six database core products, which include the distributed in-memory database, the streaming database, the embedded artificial intelligence parallel algorithm library, the heterogeneous data federation connectors, the in-memory data storage engine and the data transmission acceleration and security chip. From the SQL parsing layer, the optimization layer, the execution layer to the database storage engine, the Rapids Data Platform (RDP), a real-time big data analytics platform, is fully controllable.
 
-![Branching](/images/architecture.jpg)
+With the support of the Ministry of Industry and Information Technology, BorayData actively participated in the creation of international database standards. Selected as the Chinese enterprise representative of the ISO members and supported by independently developed core database products, BorayData has created two international database standards: “SQL9075 2018 Streaming Database” and “AI-in-Database artificial intelligence”, making a groundbreaking achievement of China to voice its opinion and take the lead to establish international database standards.
 
-## What is Rapids Shell?
+BorayData focuses on big data use cases involving structural diversification, high throughput and high concurrency. From data collection, aggregation, mining to value realization, BorayData has built a highly available and flexible big data platform with dynamic scalability for business and government customers, meeting their demands for processing and analyzing massive heterogenous data in real time accurately and securely, deep learning, ad hoc queries, etc. It helps customers monetize the true value of data. Currently RapidsDB has been successfully implemented in various fields such as governmental macroeconomy, social and public opinion, financial services, telecommunications, industrial energy, etc. The product has received many awards, which include the “Key Secure and Controllable Database Product for National Defense System”, the“ 2018 Big Data Industry Pilot Demonstration Project of the Ministry of Industry and Information Technology” and the “Best Use Case of 2018 Software Expo”.
 
-The command line toolkit for remote access rapids db, full support for windows/linux/mac.
-For the UI tool we suggest [DBeaver](https://dbeaver.io) (need to use our customized JDBC driver)
+RapidsDB is an advanced and integrated big data analytics platform dedicated to real-time big data processing and analysis. Adopting cost-effective in-memory computing technology and a distributed system architecture, it helps enterprises gain valuable insights from massive amounts of data in real time to solve challenging business problems in an economic way.
 
-## What is RPDSQL?
+RapidsDB is ANSI-standard SQL compatible and supports structured, semi-structured, and unstructured data. With its innovative connector-based data integration technology, RapidsDB can safely connect massive and disparate datasets without the need for complex and time-consuming extract, transform and load (ETL) processes and covers both real-time streaming and batch workloads, making it an online transactional processing (OLTP) and online analytical processing (OLAP) compatible hybrid database.
 
-RPDSQL is the storage engine for rapids db, fully support ANSI SQL standard, High availability
-and parallel compute
+With its self-contained Hadoop framework, RapidsDB provides access to massive data storage. The integration of AI with powerful machine learning/deep learning algorithms automates the data modeling and training process, enabling faster access to insights.
 
-## What is the current release version?
-
-| software      | version    | date      |
-|:--------------|:-----------|:----------|
-| RapidsDB      | 4.2.3.3    | 20211101  |
-| RPDSQL        | 2.0.6.     | 20211101  |
-| Rapids Shell  | 4.0.6      | 20211101  |
-| JDBC          | 4.0.6      | 20211101  |
-| Python Lib    | 4.0.0      | 20211101  |
-
-## Data source support?
-
-* Any JDBC database
-* Hadoop HDFS
-* Hive
-* S3
-* Rabbit mq
-* Json or csv file from Elasticsearch, Redis, Google Bigquery
-
-## How to get a license?
-
-Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
-
-## API and Example Code
-
-[How to install Rapidsdb](./rapidsdb_install.html)
-
-[How to install RPDSQL](./rpdsql_install.html)
-
-[AWS S3 connector](./s3_connector.html)
-
-[Hadoop HDFS connector](./hdfs.html)
-
-[Elasticsearch json import/export](./elasticsearch_json.html)
-
-[Redis csv file import](./redis_csv.html)
-
-[GEO Polygon SQL](./geo_sql.html)
-
-[Python Code Example](./python_example.html)
-
-[TPCH performance benchmark](./tpch.html)
-
-[ALL IN ONE RapidsDB buildup](./all_in_one.html)
-
-[Rapids db container migration](./container_migration.html)
-
-[AWS EC2 import qcow2 image as snapshot](./snapshot.html)
-
-[High Availability design](./ha.html)
-
-## Documents Download
-
-* [Install guide (pdf)](/download/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2%20(1).pdf)
-* [JDBC driver (zip)](/download/rapids-jdbc-4.0.6.jar.zip)
-* [Python lib (whl)](/download/pyRDP-4.0.0-py3-none-any.whl)
-* [Rapids Shell (zip)](https://drive.google.com/file/d/1HzmZSIP6C3dEW4EiFI1XQY1lwawiEzEM/view?usp=sharing)
-* [Optimization guide (pdf)](/download/数据库性能优化手册.pdf)
-* [Benchmark compare (xslt)](/download/TPCH结果对比%20(1).xlsx)
-* [Testing guide (pdf)](/download/testing-guide-EN.pdf)
-* [Rapids DB SQL manuals (doc)](/download/RapidsDB%20SQL%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97v2.0.doc)
-* [RapidsDB Technical White Paper (pdf)](/download/RapidsDB%20Technical%20White%20Paper.pdf)
-* [RapidsDB DEMO (pdf)](/download/RapidsDB%20DEMO%20V1.2.pdf)
+RapidsDB provides a JDBC interface and various APIs to get connected with client applications. The horizontal scalability enables the platform to scale up and handle data volumes and velocity that is critical for real OLAP applications. The Adaptive Query Pushdown feature provides an optimal way to retrieve data and makes the system self-adaptive to meet future requirements.
