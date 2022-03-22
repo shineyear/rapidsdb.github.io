@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is RapidsDB
-nav_order: 3
+nav_order: 99
 ---
 
 ## What is RapidsDB?

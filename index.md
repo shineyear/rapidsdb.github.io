@@ -6,6 +6,8 @@ nav_order: 1
 
 # Company Overview
 
+---
+
 Weixun BorayData Technology (Beijing) Co., Ltd. (BorayData) was founded in 2014. It is a world-leading real-time big data analytics provider of distributed in-memory database technology, international standard-based database products with intellectual property rights, and industrial database solutions. The company is committed to the research and development of distributed in-memory OLAP databases, providing real-time big data analytics products and services to support the digital transformation of various industries and government sectors.
 
 The advanced database technology establishes the core competitiveness of BorayData. The company is headquartered in Beijing and has global R&D centers in Silicon Valley of USA, Sidney of Australia, Shanghai, Guangzhou, Wuhan and many cities in China. The R&D team is led by Liu Ruiming, founder and chief architect of the company, and some best international database experts. Among them, three core technical engineers with more than twenty years of database research and development experience are students of Jim Gray, a Turing Award winner and a database technology pioneer.

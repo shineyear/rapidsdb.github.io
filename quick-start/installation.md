@@ -7,6 +7,8 @@ nav_order: 2
 
 # Installation
 
+---
+
 To install and use RapidsDB, hardware support is required. The following sections will list the RapidsDB configuration requirements as well as the recommended configurations for cluster deployment for your reference.
 
 ## Hardware Configuration
