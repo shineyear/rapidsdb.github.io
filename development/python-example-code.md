@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Python example code
+title: Python Example Code
 parent: Development
-nav_order: 1
+nav_order: 4
 ---
 
-# Python example code
+# Python Example Code
 
 ---
 
-Make sure you have installed the rapids db python lib before run this
+Make sure you have installed the RapidsDB Python library before running this.
 
 ```python
 # 载入 pyRDP

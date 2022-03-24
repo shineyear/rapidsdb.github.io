@@ -2,28 +2,28 @@
 layout: default
 title: GEO Polygon SQL
 parent: Development
-nav_order: 2
+nav_order: 5
 ---
 
 # GEO Polygon SQL
 
 ---
 
-1.Create table
+## Create table
 
 ```sql
 create table table_name ( 
-       agency varchar(10),
-       area varchar(20),
-       availablelots int,
-       carparkid varchar(10),
-       development varchar(50),
-       location GEOGRAPHYPOINT,
-       lottype varchar(10),
-       source varchar(10), 
-       lat double, 
-       lon double, 
-       index(location)
+  agency varchar(10),
+  area varchar(20),
+  availablelots int,
+  carparkid varchar(10),
+  development varchar(50),
+  location GEOGRAPHYPOINT,
+  lottype varchar(10),
+  source varchar(10), 
+  lat double, 
+  lon double, 
+  index(location)
 );
    
 create table table_name_2 (
@@ -40,7 +40,7 @@ index (FEATID)
 );
 ```
 
-2.Use python insert json data or load from csv
+## Use python to insert json data or load from csv
 
 ```python
 # 载入 pyRDP
@@ -50,7 +50,6 @@ import json
 # 打开 json 文件
 with open('lta_carpark.json') as f:
   data = json.load(f)
-
 
 # 打开数据库连接
 conn = pyRDP.connect(host = "domain_name or ip_address",
@@ -79,8 +78,6 @@ for i in data:
     # 使用 execute 方法执行 SQL 语句 插入 json 数据
     sql = "INSERT INTO table_name (agency, area, availablelots, carparkid, development, location, lat, lon, lottype, source) VALUES ('"+agency+"', '"+area+"', "+str(availablelots)+", '"+carparkid+"', '"+development+"', 'POINT("+lon+" "+lat+")', "+lat+", "+lon+", '"+lottype+"', '"+source+"')"
     cursor.execute(sql)
-    
-
 
 # 关闭数据库连接
 conn.close()
@@ -94,7 +91,7 @@ FIELDS TERMINATED BY '|'
 ENCLOSED BY '"';
 ```
 
-3.Search the record
+## Search the record
 
 ```sql
 SELECT carparkid, location FROM table_name WHERE ROUND(GEOGRAPHY_DISTANCE("POINT(1.85718 2.29375)", location), 0) < 5000;

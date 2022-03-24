@@ -9,7 +9,7 @@ nav_order: 1
 
 ---
 
-![RapidsDB 4.0 Technical Architecture](./architecture.jpg)
+![RapidsDB 4.0 Technical Architecture](./architecture.jpg)\
 *RapidsDB 4.0 Technical Architecture*
 
 From bottom to top, the technical architecture of RapidsDB consists of the following six layers:  
