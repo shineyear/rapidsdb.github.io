@@ -9,7 +9,7 @@ nav_order: 5
 
 ---
 
-## Create table
+## Create Table
 
 ```sql
 create table table_name ( 
@@ -27,20 +27,20 @@ create table table_name (
 );
    
 create table table_name_2 (
-id varchar(100) default null,
-FEATID varchar(100) default null,
-LVL varchar(100) default null,
-QUALITY varchar(100) default null,
-TYPE varchar(100) default null,
-INC_CRC varchar(100) default null,
-FMEL_UPD_D varchar(100) default null,
-GEOMETRY GEOGRAPHY default null,
-index (GEOMETRY) with (resolution = 8),
-index (FEATID)
+  id varchar(100) default null,
+  FEATID varchar(100) default null,
+  LVL varchar(100) default null,
+  QUALITY varchar(100) default null,
+  TYPE varchar(100) default null,
+  INC_CRC varchar(100) default null,
+  FMEL_UPD_D varchar(100) default null,
+  GEOMETRY GEOGRAPHY default null,
+  index (GEOMETRY) with (resolution = 8),
+  index (FEATID)
 );
 ```
 
-## Use python to insert json data or load from csv
+## Use Python to Insert JSON Data or Load From CSV
 
 ```python
 # 载入 pyRDP
@@ -81,7 +81,6 @@ for i in data:
 
 # 关闭数据库连接
 conn.close()
-
 ```
 
 ```sql
@@ -91,7 +90,7 @@ FIELDS TERMINATED BY '|'
 ENCLOSED BY '"';
 ```
 
-## Search the record
+## Search the Record
 
 ```sql
 SELECT carparkid, location FROM table_name WHERE ROUND(GEOGRAPHY_DISTANCE("POINT(1.85718 2.29375)", location), 0) < 5000;
