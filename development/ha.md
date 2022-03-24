@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Rapidsdb High Availability Architecture
+title: High Availability design
 parent: Development
-nav_order: 2
+nav_order: 9
 ---
 
-# Rapidsdb High Availability Architecture
+# High Availability design
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Elasticsearch json export and import to Rapids DB
+title: Elasticsearch json import/export
 parent: Development
 nav_order: 6
 ---
 
-# Elasticsearch json export and import to Rapids DB
+# Elasticsearch json import/export
 
 ---
 

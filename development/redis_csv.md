@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Redis export and import to Rapids DB
+title: Redis csv file import
 parent: Development
 nav_order: 4
 ---
 
-# Redis export and import to Rapids DB
+# Redis csv file import
 
 ---
 
