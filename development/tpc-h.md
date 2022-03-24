@@ -1,11 +1,11 @@
 ---
 layout: default
-title: TPCH performance benchmark
+title: TPC-H Performance Benchmark
 parent: Development
 nav_order: 7
 ---
 
-# TPCH performance benchmark
+# TPC-H Performance Benchmark
 
 ---
 

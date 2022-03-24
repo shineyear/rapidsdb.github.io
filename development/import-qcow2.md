@@ -1,23 +1,22 @@
 ---
 layout: default
-title: AWS EC2 import qcow2 image as snapshot
+title: AWS EC2 Import QCOW2 Image as Snapshot
 parent: Development
 nav_order: 8
 ---
 
-# AWS EC2 import qcow2 image as snapshot
+# AWS EC2 Import QCOW2 Image as Snapshot
 
 ---
 
 ```shell
-
 #MAC OS
 brew install qemu
 
 #check image file status
 qemu-img info rpdsql-master-1000.qcow2
 
-#convert qcow2 to raw format
+#convert QCOW2 to raw format
 qemu-img convert rpdsql-master-1000.qcow2 rpdsql-master-1000.raw 
 
 #upload image file into S3
@@ -36,11 +35,11 @@ aws ec2 import-snapshot --description "rpdsql-master-1000.qcow2" --disk-containe
 aws ec2 describe-import-snapshot-tasks
 
 #delete import snapshot task if long time not complete
-aws ec2 cancel-import-task --import-task-id import-snap-06aa8a55845fa87aa
-
+aws ec2 cancel-import-task --import-task-id import-snap-06aa8a5584
 ```
 
-trust-policy.json
+trust-policy.json:
+
 ```json
 {
    "Version": "2012-10-17",
@@ -59,7 +58,8 @@ trust-policy.json
 }
 ```
 
-role-policy.json
+role-policy.json:
+
 ```json
 {
    "Version":"2012-10-17",
@@ -104,14 +104,14 @@ role-policy.json
 }
 ```
 
-container.json
+container.json:
+
 ```json
 {
-    "Description": "rpdsql-master-1000",
-    "Format": "raw",
-    "Url": "https://your-image-s3-bucket.amazonaws.com/rpdsql-master-1000.raw"
+   "Description": "rpdsql-master-1000",
+   "Format": "raw",
+   "Url": "https://your-image-s3-bucket.amazonaws.com/rpdsql-master-1000.raw"
 }
 ```
 
-* if you are using centos 7 image , please make sure it support the NVMeSSD (must be after centos 7.4), otherwise the AWS EC2 instance type must choose normal SSD support type, like M3 (if not , there will be an init error like can not find volume and some script timeout)
-
+If you are using CentOS 7 image, please make sure it supports NVMeSSD (must be after CentOS 7.4). Otherwise, the AWS EC2 instance type must choose normal SSD support type, like M3 (otherwise, there will be an initialization error like cannot find volume and some script timeout).
