@@ -1,17 +1,17 @@
 ---
 layout: default
-title: ALL IN ONE RapidsDB buildup
+title: All-in-One RapidsDB Build
 parent: Development
 nav_order: 11
 ---
 
-# ALL IN ONE RapidsDB buildup
+# All-in-One RapidsDB Build
 
 ---
 
-![Branching](/images/all%20in%20one%20demo-2.png)
+![Branching](./all-in-one-demo.png)
 
-1.Create Dockerfile
+## Create Dockerfile
 
 ```shell
 #amazon os
@@ -117,7 +117,7 @@ RUN chmod +x /opt/run_script.sh
 CMD /opt/run_script.sh
 ```
 
-2.Create docker-compose.yml and on
+## Create docker-compose.yml
 
 ```yml
 version: "2"
