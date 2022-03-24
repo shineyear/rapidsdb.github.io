@@ -1,13 +1,15 @@
 ---
 layout: default
-title: How to install Rapidsdb
+title: How to Install RapidsDB
 parent: Development
 nav_order: 12
 ---
 
-# How to install Rapidsdb
+# How to Install RapidsDB
 
 ---
+
+## Basic Information
 
 Hardware
 
@@ -18,12 +20,12 @@ Hardware
 Operating System
 
 |:------------------|
-| Centos 7.7 X86_64 |
+| CentOS 7.7 X86_64 |
 | File system XFS   |
 
 Node info
 
-| Node name     | Public ip      | Private ip    | Node role |
+| Node Name     | Public IP      | Private IP    | Node Role |
 |:--------------|:---------------|:--------------|:----------|
 | node1         | 18.144.169.18  | 172.31.4.129  | DQC       |
 | node2         | 54.177.78.12   | 172.31.5.178  | DQE       |
@@ -38,6 +40,8 @@ Port info
 | 4333 |
 | 4334 |
 | 22   |
+
+## Installation
 
 Setup file system
 
@@ -241,13 +245,13 @@ WantedBy=multi-user.target
 sudo systemctl enable zookeeper.service
 ```
 
-Install rapidsdb cluster (repeat on each node)
+Install RapidsDB cluster (repeat on each node)
 
 ```shell
 mkdir -p /opt/rdp
 cd /opt/rdp/
 
-```cp -fr /home/centos/rdp-installer-R4.2.3.3-ge674a16.run .
+cp -fr /home/centos/rdp-installer-R4.2.3.3-ge674a16.run .
 chmod 777 rdp-installer-R4.2.3.3-ge674a16.run
 
 ./rdp-installer-R4.2.3.3-ge674a16.run
@@ -257,9 +261,11 @@ vi zk.config.sample
 
 #change to DQC node internal ip
 nodeList = node_1_internal_ip:2181
+```
 
-vi cluster.config.sample
+cluster.config.sample:
 
+```json
 {
   "commonNodeConfig": {
     "enabled"               : true,
@@ -292,8 +298,9 @@ vi cluster.config.sample
     }
   ]
 }
+```
 
-
+```shell
 cd /opt/rdp
 cp current/cfg/zk.config.sample zk.config
 cp current/cfg/cluster.config.sample cluster.config
@@ -302,7 +309,7 @@ cp /home/centos/rapids.lic .
 chmod +x rapids.lic
 ```
 
-Start rapidsdb cluster (ssh into DQC node and run below)
+Start RapidsDB cluster (ssh into DQC node and run below)
 
 ```shell
 cd /opt/rdp/current

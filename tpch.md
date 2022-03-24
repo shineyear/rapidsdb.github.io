@@ -15,7 +15,7 @@ tpc test document read
 	
 ## 数据准备 ##
 ### 生成tpch数据 ###
-进入rapidsdb
+进入RapidsDB
     
     [root@node1 opt] cd /opt/rdp/current
     [root@node1 current] ./rapids-shell.sh
@@ -25,14 +25,14 @@ tpc test document read
 建立TPCH 1GB 数据的连接器，连接器名为SF1
 
 ### 建立moxe连接器 ###
-进入rapidsdb
+进入RapidsDB
     
     [root@node1 opt] cd /opt/rdp/current
     [root@node1 current] ./rapids-shell.sh
     
     rapids > CREATE CONNECTOR MOXE TYPE MOXE WITH PARTITIONS_PER_NODE='2', MEM_PER_NODE='10GB';
 	
-  代表在rapidsdb中建立moxe的连接器
+  代表在RapidsDB中建立moxe的连接器
   其中分片数为每节点数据分为2部分，且每个节点允许最大内存使用限度为10GB
   
 ### 建表 ###

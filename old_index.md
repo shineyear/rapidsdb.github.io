@@ -84,6 +84,6 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 * [Optimization guide (pdf)](/download/数据库性能优化手册.pdf)
 * [Benchmark compare (xslt)](/download/TPCH结果对比%20(1).xlsx)
 * [Testing guide (pdf)](/download/testing-guide-EN.pdf)
-* [Rapids DB SQL manuals (doc)](/download/RapidsDB%20SQL%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97v2.0.doc)
+* [RapidsDB SQL manuals (doc)](/download/RapidsDB%20SQL%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97v2.0.doc)
 * [RapidsDB Technical White Paper (pdf)](/download/RapidsDB%20Technical%20White%20Paper.pdf)
 * [RapidsDB DEMO (pdf)](/download/RapidsDB%20DEMO%20V1.2.pdf)
