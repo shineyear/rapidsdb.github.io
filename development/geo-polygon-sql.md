@@ -43,15 +43,12 @@ create table table_name_2 (
 ## Use Python to Insert JSON Data or Load From CSV
 
 ```python
-# 载入 pyRDP
 import pyRDP as pyRDP
 import json
 
-# 打开 json 文件
 with open('lta_carpark.json') as f:
   data = json.load(f)
 
-# 打开数据库连接
 conn = pyRDP.connect(host = "domain_name or ip_address",
                      port = 4333,
                      user = 'RAPIDS',
@@ -59,9 +56,7 @@ conn = pyRDP.connect(host = "domain_name or ip_address",
                      catalog = 'connector_name',
                      schema = "database_name")
 
-# 使用 cursor()方法获取操作游标
 cursor = conn.cursor()
-# 获取 json 数据 
 for i in data:
     agency = i["agency"]
     area = i["area"]
@@ -75,11 +70,9 @@ for i in data:
     lottype = i["lottype"]
     source = i["source"]
 
-    # 使用 execute 方法执行 SQL 语句 插入 json 数据
     sql = "INSERT INTO table_name (agency, area, availablelots, carparkid, development, location, lat, lon, lottype, source) VALUES ('"+agency+"', '"+area+"', "+str(availablelots)+", '"+carparkid+"', '"+development+"', 'POINT("+lon+" "+lat+")', "+lat+", "+lon+", '"+lottype+"', '"+source+"')"
     cursor.execute(sql)
 
-# 关闭数据库连接
 conn.close()
 ```
 
