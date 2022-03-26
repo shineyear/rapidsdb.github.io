@@ -10,7 +10,7 @@ nav_order: 9
 
 ## Documentation
 
-* [Install guide (pdf)](./downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2.pdf)
+* [RapidsDB Installation and Management Guide v4.2.3.2](./downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2.pdf)
 * [Optimization guide (pdf)](./downloads/数据库性能优化手册.pdf)
 * [Benchmark compare (xslt)](./downloads/TPCH结果对比.xlsx)
 * [Testing guide (pdf)](./downloads/testing-guide-EN.pdf)

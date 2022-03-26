@@ -2,7 +2,7 @@
 layout: default
 title: Finance
 parent: Use Cases
-nav_order: 1
+nav_order: 2
 ---
 
 # Finance

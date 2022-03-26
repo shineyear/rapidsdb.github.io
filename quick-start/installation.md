@@ -53,3 +53,10 @@ The recommended number of aggregators depends on each specific uses case. For ex
 Besides workload distribution, the most important consideration should be network bandwidth. As a rule of thumb, a cluster with fifty or fewer nodes should have a leaf to aggregator node ratio of 5:1. A cluster with more than fifty nodes, the ratio can reach 10:1. Please note that you can add nodes to a cluster after the cluster is up and running in order to adjust the overall performance.
 
 The appropriate ratio of aggregator and leaf nodes also depends on the type of operating workloads. Transactional workloads that run many small queries or queries involving only a single partition require more aggregator nodes because each query interacts with an aggregator and a leaf node, respectively. Analytical workloads, especially those involving distributed connections, require fewer aggregator nodes because almost all work is done on leaf nodes.
+
+## Installation Details
+
+Refer to [RapidsDB Installation and Management Guide v4.2.3.2](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2.pdf):
+
+* Chapter 5 Installation Overview
+* Chapter 6 Installing RapidsDB
