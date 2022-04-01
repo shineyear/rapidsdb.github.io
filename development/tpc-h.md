@@ -12,8 +12,6 @@ nav_order: 7
 Based on RapidsDB v4.3
 
 ```shell
-tpc test document read 
-
 ./bootstrapper.sh -a start
 
 ./rapids-shell.sh
