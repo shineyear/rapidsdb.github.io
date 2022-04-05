@@ -46,7 +46,7 @@ RapidsDB can be installed and deployed on many mainstream operating systems such
 
 ### Cluster Size
 
-A RapidsDB Cluster needs a master aggregator (master node, which only exists on a main server) to manage other sub-aggregators (slave node, each server can have multiple slave nodes）. Each sub-aggregator on a server can have multiple leaf nodes.
+A RapidsDB Cluster needs a master aggregator (master node, which only exists on a main server) to manage other sub-aggregators (slave node, each server can have multiple slave nodes). Each sub-aggregator on a server can have multiple leaf nodes.
 
 The recommended number of aggregators depends on each specific uses case. For example, if a cluster is used for multiple types of workloads (for example, it is the backend of a web application as well as the object of an analytical query), it is recommended to have multiple aggregators or an aggregation pool for these independent workloads.
 
