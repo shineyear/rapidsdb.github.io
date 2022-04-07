@@ -2,7 +2,7 @@
 layout: default
 title: IoT
 parent: Use Cases
-nav_order: 3
+nav_order: 4
 ---
 
 # IoT
