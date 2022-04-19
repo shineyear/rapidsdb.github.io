@@ -9,7 +9,7 @@ nav_order: 6
 
 ---
 
-Refer to [RapidsDB Installation and Management Guide v4.2.3.2](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.2.3.2.pdf):
+Refer to [RapidsDB Installation and Management Guide v4.3.1](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.1.pdf):
 
 * Chapter 4 Users and Authentication
 * Chapter 7.6 Adding Users

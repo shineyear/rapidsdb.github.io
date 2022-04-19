@@ -9,6 +9,6 @@ nav_order: 5
 
 ---
 
-Refer to [RapidsDB User Guide v4.2.3](../downloads/RapidsDB_User_Guide_Release_v4.2.3.pdf):
+Refer to [RapidsDB User Guide v4.3.1](../downloads/RapidsDB_User_Guide_Release_v4.3.1.pdf):
 
 * Chapter 10 DDL
