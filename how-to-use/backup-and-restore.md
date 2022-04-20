@@ -27,7 +27,7 @@ BACKUP testdata TO "/home/testdata";
 RESTORE DATABASE testdata from "/home/testdata";
 ```
 
-## For MOXE Tables
+## For MOXE
 
 Refer to [RapidsDB Installation and Management Guide v4.3.1](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.1.pdf):
 
