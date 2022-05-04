@@ -245,4 +245,58 @@ Examples:
 REVOKE ROLE ‘full_backups_role' FROM 'backup_admins';
 ```
 
-## Encryption at Rest
+### SET PASSWORD
+
+Syntax:
+
+```sql
+SET PASSWORD FOR 'username'@'host' = PASSWORD('password')
+```
+
+### SHOW GRANTS
+
+Syntax:
+
+```sql
+SHOW GRANTS
+
+SHOW GRANTS FOR USER 'user'@'host_name'
+
+SHOW GRANTS FOR ROLE 'role_name'
+```
+
+### SHOW GROUPS
+
+Syntax:
+
+```sql
+SHOW GROUPS
+
+SHOW GROUPS FOR USER 'user'@'host_name'
+
+SHOW GROUPS FOR ROLE 'role_name'
+```
+
+### SHOW ROLES
+
+Syntax:
+
+```sql
+SHOW ROLES
+
+SHOW ROLES FOR USER 'user'@'host_name'
+
+SHOW ROLES FOR GROUP 'group_name'
+```
+
+### SHOW USERS
+
+Syntax:
+
+```sql
+SHOW USERS
+
+SHOW USERS FOR ROLE 'role_name'
+
+SHOW USERS FOR GROUP 'group_name'
+```
