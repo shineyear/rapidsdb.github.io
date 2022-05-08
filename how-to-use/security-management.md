@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Security
-parent: Development
-nav_order: 17
+title: Security Management
+parent: How to Use
+nav_order: 8
 ---
 
-# Security
+# Security Management
 {: .no_toc }
 
 ## Table of Contents
@@ -16,13 +16,7 @@ nav_order: 17
 
 ---
 
-## SSL
-
-## Authentication
-
-## User Privilege
-
-### ALTER USER
+## ALTER USER
 
 Syntax:
 
@@ -39,7 +33,7 @@ ALTER USER tom WITH DEFAULT RESOURCE POOL = executive;
 ALTER USER 'test' REQUIRE SSL;
 ```
 
-### CREATE GROUP
+## CREATE GROUP
 
 Syntax:
 
@@ -47,7 +41,7 @@ Syntax:
 CREATE GROUP 'group_name'
 ```
 
-### CREATE ROLE
+## CREATE ROLE
 
 Syntax:
 
@@ -55,7 +49,7 @@ Syntax:
 CREATE ROLE 'role_name'
 ```
 
-### CREATE USER
+## CREATE USER
 
 Syntax:
 
@@ -71,7 +65,7 @@ CREATE USER tom;
 GRANT SELECT ON test.* TO 'tom'@'%';
 ```
 
-### CURRENT_USER
+## CURRENT_USER
 
 Syntax:
 
@@ -89,7 +83,7 @@ SELECT CURRENT_USER();
 SELECT USER();
 ```
 
-### DROP GROUP
+## DROP GROUP
 
 Syntax:
 
@@ -97,7 +91,7 @@ Syntax:
 DROP GROUP [IF EXISTS] 'group_name'
 ```
 
-### DROP ROLE
+## DROP ROLE
 
 Syntax:
 
@@ -105,7 +99,7 @@ Syntax:
 DROP ROLE [IF EXISTS] 'role_name'
 ```
 
-### DROP USER
+## DROP USER
 
 Syntax:
 
@@ -113,7 +107,7 @@ Syntax:
 DROP USER [IF EXISTS] user [, user] ...
 ```
 
-### GRANT
+## GRANT
 
 Syntax:
 
@@ -186,7 +180,7 @@ Examples:
 GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
 ```
 
-### GRANT ROLE
+## GRANT ROLE
 
 Syntax:
 
@@ -200,7 +194,7 @@ Examples:
 GRANT ROLE 'full_backup_role' TO 'backup_admins_group';
 ```
 
-### REVOKE
+## REVOKE
 
 Syntax:
 
@@ -217,7 +211,7 @@ REVOKE INSERT ON *.* FROM 'user'@'%';
 REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'user'@'%';
 ```
 
-### REVOKE GROUP
+## REVOKE GROUP
 
 Syntax:
 
@@ -231,7 +225,7 @@ Examples:
 REVOKE GROUP 'backup_admins' FROM 'username'@'%';
 ```
 
-### REVOKE ROLE
+## REVOKE ROLE
 
 Syntax:
 
@@ -245,7 +239,7 @@ Examples:
 REVOKE ROLE ‘full_backups_role' FROM 'backup_admins';
 ```
 
-### SET PASSWORD
+## SET PASSWORD
 
 Syntax:
 
@@ -253,7 +247,7 @@ Syntax:
 SET PASSWORD FOR 'username'@'host' = PASSWORD('password')
 ```
 
-### SHOW GRANTS
+## SHOW GRANTS
 
 Syntax:
 
@@ -265,7 +259,7 @@ SHOW GRANTS FOR USER 'user'@'host_name'
 SHOW GRANTS FOR ROLE 'role_name'
 ```
 
-### SHOW GROUPS
+## SHOW GROUPS
 
 Syntax:
 
@@ -277,7 +271,7 @@ SHOW GROUPS FOR USER 'user'@'host_name'
 SHOW GROUPS FOR ROLE 'role_name'
 ```
 
-### SHOW ROLES
+## SHOW ROLES
 
 Syntax:
 
@@ -289,7 +283,7 @@ SHOW ROLES FOR USER 'user'@'host_name'
 SHOW ROLES FOR GROUP 'group_name'
 ```
 
-### SHOW USERS
+## SHOW USERS
 
 Syntax:
 
@@ -301,7 +295,7 @@ SHOW USERS FOR ROLE 'role_name'
 SHOW USERS FOR GROUP 'group_name'
 ```
 
-### Permissions Matrix
+## Permissions Matrix
 
 | SQL | Allowed Targets in Default Mode | Allowed Targets in Strict Mode | Notes |
 |:----|:--------------------------------|:-------------------------------|:------|

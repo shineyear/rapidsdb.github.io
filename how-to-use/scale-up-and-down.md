@@ -2,7 +2,7 @@
 layout: default
 title: Scale Up and Down
 parent: How to Use
-nav_order: 10
+nav_order: 11
 ---
 
 # Scale Up and Down

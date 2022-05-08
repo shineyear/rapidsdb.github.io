@@ -2,7 +2,7 @@
 layout: default
 title: Backup and Restore
 parent: How to Use
-nav_order: 9
+nav_order: 10
 ---
 
 # Backup and Restore

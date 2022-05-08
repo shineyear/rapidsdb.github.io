@@ -2,7 +2,7 @@
 layout: default
 title: High Availability
 parent: How to Use
-nav_order: 13
+nav_order: 14
 ---
 
 # High Availability
