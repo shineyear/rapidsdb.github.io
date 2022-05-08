@@ -300,3 +300,45 @@ SHOW USERS FOR ROLE 'role_name'
 
 SHOW USERS FOR GROUP 'group_name'
 ```
+
+### Permissions Matrix
+
+| SQL | Allowed Targets in Default Mode | Allowed Targets in Strict Mode | Notes |
+|:----|:--------------------------------|:-------------------------------|:------|
+| USAGE | Cluster | Cluster | Connect, show variables |
+| SELECT | Cluster, Database, Table | Database, Table | Select rows |
+| INSERT | Cluster, Database, Table | Database, Table | Insert rows |
+| UPDATE | Cluster, Database, Table | Database, Table | Update cells of existing rows |
+| DELETE | Cluster, Database, Table | Database, Table | Delete rows |
+| CREATE | Cluster, Database, Table | Database, Table | Create tables |
+| DROP | Cluster, Database, Table | Database, Table | Drop tables |
+| RELOAD | Cluster, Database | Cluster. Database | Load backups into database |
+| FILE WRITE | Cluster | Cluster | File write access |
+| PROCESS | Cluster | Cluster | View and kill queries |
+| FILE READ | Cluster | Cluster | File read access |
+| WITH GRANT OPTION | | (disallowed) | WITH GRANT OPTION  disabled in strict mode |
+| INDEX | Cluster, Database, Table | Database, Table | Create and drop indexes |
+| ALTER | Cluster, Database, Table | Database, Table | Alter tables (including indexes) |
+| SHOW METADATA | Cluster | Cluster | Show all metadata |
+| SUPER | Cluster | Cluster | Set global variables, modify resource pool settings |
+| CREATE TEMPORARY TABLES | Cluster, Database | Database | Create temporary tables |
+| LOCK TABLES | Cluster, Database | Cluster, Database | Lock tables (read and write) |
+| REPLICATION | Cluster, Database | Cluster, Database | Read data for replication |
+| CREATE VIEW | Cluster, Database | Database | Create views |
+| ALTER VIEW | Cluster, Database, View | Database, View | Alter views |
+| DROP VIEW | Cluster, Database, Table | Database, Table | Drop views |
+| SHOW VIEW | Cluster, Database, View | Database, View | Show VIEW definitions |
+| CLUSTER | Cluster | Cluster | Cluster administration, including replication, partition movement, and topology. Includes all permissions in SHOW METADATA. |
+| BACKUP | Cluster, Database | Cluster. Database | Take backups and snapshots |
+| CREATE USER | Cluster | Cluster | Create and drop users (no grants) |
+| GRANT | Cluster, Database | Cluster. Database | Grant / revoke permissions, manage roles & groups. Distinct from  WITH GRANT OPTION. |
+| DROP DATABASE | Cluster, Database | Cluster. Database | Drop databases |
+| CREATE DATABASE | Cluster, Database | Cluster. Database | Create databases |
+| CREATE ROUTINE | Cluster, Database, Function | Database, Function | Create extensibility functions or procedures |
+| ALTER ROUTINE | Cluster, Database, Function | Database, Function | Replace or delete extensibility functions or procedures |
+| EXECUTE | Cluster, Database, Function | Database, Function | Execute extensibility functions or procedures |
+| CREATE PIPELINE | Cluster, Database, Table | Database, Table | Create pipelines |
+| DROP PIPELINE | Cluster, Database, Table | Database, Table | Drop pipelines |
+| START PIPELINE | Cluster, Database, Table | Database, Table | Start pipelines |
+| ALTER PIPELINE | Cluster, Database, Table | Database, Table | Alter pipelines |
+| SHOW PIPELINE | Cluster, Database, Table | Database, Table | Show pipelines |
