@@ -56,7 +56,7 @@ The appropriate ratio of aggregator and leaf nodes also depends on the type of o
 
 ## Installation Details
 
-Refer to [RapidsDB Installation and Management Guide v4.3.1](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.1.pdf):
+Refer to [RapidsDB Installation and Management Guide](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.3.pdf):
 
 * Chapter 5 Installation Overview
 * Chapter 6 Installing RapidsDB

@@ -77,7 +77,7 @@ Please email vincent@rapidsdb.sg or yylai@rapidsdb.sg for a trial license.
 
 ## Documents Download
 
-* [Install guide (pdf)](/downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.1.pdf)
+* [Install guide (pdf)](/downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.3.pdf)
 * [JDBC driver (zip)](/downloads/rapids-jdbc-4.0.6.jar.zip)
 * [Python lib (whl)](/downloads/pyRDP-4.0.0-py3-none-any.whl)
 * [Rapids Shell (zip)](https://drive.google.com/file/d/1HzmZSIP6C3dEW4EiFI1XQY1lwawiEzEM/view?usp=sharing)

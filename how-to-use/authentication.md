@@ -17,7 +17,7 @@ It is possible to drop an authenticator while keeping the user, but the users wi
 
 Unlike the Kerberos authentication protocol, the internal password-based authenticator cannot be deleted or disabled. The password is salted and then hashed with a computationally-intensive algorithm such that it takes a relatively long time to compute. This makes it extremely difficult to brute-force guess the password.
 
-Refer to [RapidsDB Installation and Management Guide v4.3.1](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.1.pdf):
+Refer to [RapidsDB Installation and Management Guide](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.3.pdf):
 
 * Chapter 4 Users and Authentication
 * Chapter 7.3 Adding Authenticators

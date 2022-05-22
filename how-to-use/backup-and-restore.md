@@ -29,6 +29,6 @@ RESTORE DATABASE testdata from "/home/testdata";
 
 ## For MOXE
 
-Refer to [RapidsDB Installation and Management Guide v4.3.1](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.1.pdf):
+Refer to [RapidsDB Installation and Management Guide](../downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.3.pdf):
 
 * Chapter 8.5 Backing up and Restoring MOXE Tables

@@ -10,11 +10,11 @@ nav_order: 9
 
 ## Documentation
 
-* [RapidsDB Installation and Management Guide v4.3.1](./downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.1.pdf)
+* [RapidsDB Installation and Management Guide](./downloads/RapidsDB_Installation_and_Management_Guide_Release_v4.3.3.pdf)
 * [Optimization guide (pdf)](./downloads/数据库性能优化手册.pdf)
 * [Benchmark compare (xslt)](./downloads/TPCH结果对比.xlsx)
 * [Testing guide (pdf)](./downloads/testing-guide-EN.pdf)
-* [RapidsDB SQL manuals (doc)](./downloads/RapidsDB%20SQL%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97v2.0.doc)
+* [RapidsDB SQL Syntax](./downloads/RapidsDB_SQL_Syntax.pdf)
 * [RapidsDB Technical White Paper (pdf)](./downloads/RapidsDB%20Technical%20White%20Paper.pdf)
 * [RapidsDB DEMO (pdf)](./downloads/RapidsDB%20DEMO%20V1.2.pdf)
 
