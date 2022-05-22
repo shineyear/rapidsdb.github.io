@@ -2,7 +2,7 @@
 layout: default
 title: GEO Polygon SQL
 parent: Development
-nav_order: 5
+nav_order: 3
 ---
 
 # GEO Polygon SQL

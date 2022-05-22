@@ -2,7 +2,7 @@
 layout: default
 title: SQL and Functions
 parent: Development
-nav_order: 15
+nav_order: 13
 ---
 
 # SQL and Functions

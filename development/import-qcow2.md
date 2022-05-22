@@ -2,7 +2,7 @@
 layout: default
 title: AWS EC2 Import QCOW2 Image as Snapshot
 parent: Development
-nav_order: 8
+nav_order: 7
 ---
 
 # AWS EC2 Import QCOW2 Image as Snapshot

@@ -2,7 +2,7 @@
 layout: default
 title: Python Example Code
 parent: Development
-nav_order: 4
+nav_order: 2
 ---
 
 # Python Example Code

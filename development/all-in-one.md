@@ -2,7 +2,7 @@
 layout: default
 title: All-in-One RapidsDB Build
 parent: Development
-nav_order: 11
+nav_order: 10
 ---
 
 # All-in-One RapidsDB Build

@@ -2,7 +2,7 @@
 layout: default
 title: AWS S3 RPDSQL Pipeline
 parent: Development
-nav_order: 3
+nav_order: 1
 ---
 
 # AWS S3 RPDSQL Pipeline
