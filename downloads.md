@@ -16,7 +16,7 @@ nav_order: 9
 * [Testing guide (pdf)](./downloads/testing-guide-EN.pdf)
 * [RapidsDB SQL Syntax](./downloads/RapidsDB_SQL_Syntax.pdf)
 * [RapidsDB Technical White Paper (pdf)](./downloads/RapidsDB%20Technical%20White%20Paper.pdf)
-* [RapidsDB DEMO (pdf)](./downloads/RapidsDB%20DEMO%20V1.2.pdf)
+* [RapidsDB DEMO (pdf)](./downloads/RapidsDB%20DEMO%20V1.6.pptx.pdf)
 
 ## Code
 
