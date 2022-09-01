@@ -2,7 +2,7 @@
 
 ---
 
-## AWS
+## AWS (Amazon Web Services)
 
 Follow these steps to set up a new client:
 
@@ -28,7 +28,7 @@ Follow these steps to set up a new client:
 
 7. The client can now create a new `Region` config in BUTP with the access key and secret key pair, and start using it to create a new cluster.
 
-## GCP
+## GCP (Google Cloud Platform)
 
 Follow these steps to set up a new client:
 
