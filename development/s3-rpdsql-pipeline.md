@@ -36,6 +36,8 @@ Create bucket policy:
 You must log in to RPDSQL database first (not RapidsDB), using rpdsql-ops/rapids command (not Rapids Shell).
 
 ```sql
+create table beta (num VARCHAR(20), price VARCHAR(20));
+
 CREATE PIPELINE p AS LOAD DATA
 S3 'rapids-db-test'
 CONFIG '{"region": "ap-southeast-1"}'
