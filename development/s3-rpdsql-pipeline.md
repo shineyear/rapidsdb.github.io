@@ -17,6 +17,14 @@ nav_order: 1
 
 Create an S3 bucket, and upload a test file:
 
+test.csv
+
+```text 
+1,2
+3,4
+5,6
+```
+
 ![Branching](./create-s3-bucket.png)
 
 Create bucket policy:
