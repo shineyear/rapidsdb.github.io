@@ -46,6 +46,13 @@ SKIP DUPLICATE KEY ERRORS
 INTO TABLE beta
 FIELDS TERMINATED BY ',' ENCLOSED BY '' ESCAPED BY '\\'
 LINES TERMINATED BY '\n' STARTING BY '';
+
+test pipeline p;
+
+show pipelines;
+
+start pipeline p;
+
 ```
 
 ## Test and Run Pipeline
