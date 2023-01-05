@@ -168,6 +168,7 @@ services:
 
 networks:
   rapids_net:
+    name: rapids_net
     driver: bridge
     ipam:
      config:
