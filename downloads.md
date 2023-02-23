@@ -23,3 +23,4 @@ nav_order: 9
 * [JDBC driver (zip)](./downloads/rapids-jdbc-4.0.6.jar.zip)
 * [Python lib (whl)](./downloads/pyRDP-4.0.0-py3-none-any.whl)
 * [Rapids Shell (zip)](https://drive.google.com/file/d/1HzmZSIP6C3dEW4EiFI1XQY1lwawiEzEM/view?usp=sharing)
+* [Rapidspy (whl)](./downloads/RapidsPY-1.1.7-py3-none-any.whl)
