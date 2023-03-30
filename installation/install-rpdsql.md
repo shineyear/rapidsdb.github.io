@@ -8,10 +8,11 @@ nav_order: 2
 # How to Install RPDSQL
 
 ---
+download ur rpdsql-ops-4.3.7-dev-v.tar to /root or upload from ur local computer to /root then
 
 ```shell
 cd /opt/rdp
-cp -fr /opt/rdp/rpdsql-ops-4.3.7-dev-v.tar .
+cp -fr /root/rpdsql-ops-4.3.7-dev-v.tar .
 tar -vxf rpdsql-ops-4.3.7-dev-v.tar
 cd rpdsql-ops-4.3.7-dev-v
 
