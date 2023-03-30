@@ -11,9 +11,9 @@ nav_order: 2
 
 ```shell
 cd /opt/rdp
-cp -fr /root/rdp/rpdsql-ops-2.0.5-dev-v.tar .
-tar -xvf rpdsql-ops-2.0.5-dev-v.tar.gz
-cd /rpdsql-ops
+cp -fr /opt/rdp/rpdsql-ops-4.3.7-dev-v.tar .
+tar -vxf rpdsql-ops-4.3.7-dev-v.tar
+cd rpdsql-ops-4.3.7-dev-v
 
 # install rpdsql agent
 # rpdsql install currently only support username/password login
