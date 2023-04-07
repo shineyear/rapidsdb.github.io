@@ -93,7 +93,7 @@ Setup keyless ssh login on each node
 
 ```shell
 #run in each node
-ssh-keygen -t rsa
+ssh-keygen -q -m PEM -t rsa -b 4096
 
 cd ~/.ssh/
 
